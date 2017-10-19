@@ -3,11 +3,18 @@
 $base-text-size: 16px;
 $base-font-family: sans-serif;
 
-html {
-  @include full-height;
-}
+// html {
+//   @include full-height;
+// }
 
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background-color: #ecf0f1;
 }
+
+// #root {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+// }
